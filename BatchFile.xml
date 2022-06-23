@@ -3,65 +3,8 @@
 <suite name="Suite1" verbose="1">
 	<test name="Smoke">
 		<classes>
-		<class name="com.login.LawyerLogin" />
-			<class name="com.privatePracticeJobs.ApplyForJob" />
-			<class name="com.privatePracticeJobs.SearchJobByFilter" />
-			<class name="com.privatePracticeJobs.SearchJobByPqeSlider" />
-			<class name="com.signOut.LawyerLogOut" />
-			<class name="com.login.AdminLogin" />
-			<class name="com.admin.VerifyJobProposal" />
-			<class name="com.signOut.AdminLogOut" /> 
-
- <!-- 		<class name="com.adminLawyerListing.DropDownVerifications_regularTab" />
-		<class name="com.adminLawyerListing.DropDownVerifications_connectTab" /> -->
-	<!-- 	<class name="com.adminLawyerListing.DropDownVerifications_regularTab" />
-		<class name="com.adminLawyerListing.DropDownVerifications_connectTab" /> -->
-	
-	
-			<!-- <class name="com.adminLawyerListing.LawyerListingVerifyRegularTab" />
-		<class name="com.adminLawyerListing.ConnectTab" /> 
-		<class name="com.adminLawyerListing.DropDownVerifications_regularTab" />
-		<class name="com.adminLawyerListing.DropDownVerifications_connectTab" /> -->
-		 
-		
-		
-		
-		
-<!-- 		<class name="com.signUp.SignUp" />
- 			<class name="com.signUp.About_you" />
- 		    <class name="com.signOut.AdminLogOut" />
- 		    <class name="com.login.AdminLogin" />
-		    <class name="com.admin.VerifyLawyerSignUp" /> 
-		    <class name="com.signOut.AdminLogOut" />  -->
-			
-		
-		
-	
-<!-- 	
-	   <class name="com.Login.Lawyer_Login" />
-			 <class name="com.signUp.About_you" /> -->
-			 
-			 
-		<!-- <class name="com.signUp.SignUp" />
-		  	  <class name="com.signUp.About_you" />
-		  	  <class name="com.Login.Lawyer_Login" />
-			  <class name="com.Login.Admin_Login" />-->
-				
-<!-- 		<class name="com.login.LawyerLogin" />
-			<class name="com.privatePracticeJobs.ApplyForJob" />
-			<class name="com.privatePracticeJobs.SearchJobByFilter" />
-			<class name="com.privatePracticeJobs.SearchJobByPqeSlider" />
-			<class name="com.signOut.LawyerLogOut" />
-			<class name="com.login.AdminLogin" />
-			<class name="com.admin.VerifyJobProposal" />
-			<class name="com.signOut.AdminLogOut" /> 
-			<class name="com.lawyerInHouseJobs.ApplyInHouseJob" />
-			<class name="com.lawyerInHouseJobs.SearchInHouseJob" />  -->
-				
-				
-<!-- 		<class name="com.myProfile.LawyerProfile" />
-			<class name="com.myProfile.LawyerPreferences" /> -->
-			  
+			<class name="com.JavaError.javaError" />
+			  <class name="com.JavaError.statusCode" />
 			  
 		</classes>
 	</test>

@@ -1,0 +1,4 @@
+INDEX VERSION 1.131+D:\Mythersa\mytheresa_test\.metadata\.plugins\org.eclipse.jdt.core
+2872044937.index
+1865797976.index
+1592168870.index

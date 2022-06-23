@@ -41,12 +41,7 @@ public static PropertiesInitializer properties = null;
 			String testUrl = System.getProperty("TestURL");
 			properties.setTestUrl(testUrl == null? prop.getProperty("TestURL"): testUrl);
 			properties.setBrowser(prop.getProperty("Browser"));
-			properties.setExtentRptAuthId(prop.getProperty("ExtentRptAuthId"));
-			properties.setExtentRptAuthPwd(prop.getProperty("ExtentRptAuthPwd"));
-			properties.setExtentRptSendTO(prop.getProperty("ExtentRptSendTO"));
-			properties.setExtentRptSendCc(prop.getProperty("ExtentRptSendCc"));
-			properties.setExtentRptSubject(prop.getProperty("ExtentRptSubject"));
-			properties.setExtentRptMailBody(prop.getProperty("ExtentRptMailBody"));
+			
 		}
 		/*******************************/
 		if (Instance == null)
