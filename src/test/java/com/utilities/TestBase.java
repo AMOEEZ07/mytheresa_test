@@ -1,31 +1,13 @@
 package com.utilities;
 
 import org.testng.annotations.BeforeSuite;
-
-import java.lang.reflect.Method;
-
 import org.testng.ITestResult;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterSuite;
-import org.testng.annotations.BeforeMethod;
 
 
 
 public class TestBase {
-//	ExtentTest testInfo;
-//	 ExtentHtmlReporter htmlReporter;
-
-//	 @BeforeMethod
-//	 public void BeforeM(Method method){
-//	
-//	  PropertyConfigurator.configure("Log4j.properties");
-//	 }
-//	 @BeforeMethod
-//	 public void BeforeM(Method method){
-//	String testName=method.getName();
-//	//  testInfo=ExtentManager.GetExtent().createTest(testName);
-//	 // PropertyConfigurator.configure("Log4j.properties");
-//	 }
 
 	@BeforeSuite
 	public void beforeSuite() {
